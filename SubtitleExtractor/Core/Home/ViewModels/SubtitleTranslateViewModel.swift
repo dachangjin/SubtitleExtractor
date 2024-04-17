@@ -46,7 +46,7 @@ final class SubtitleTranslateViewModel: NSObject, ObservableObject {
 
     
     
-    private let apiKey = "56be75a6-e297-a6af-a63e-19795b2445e9:fx"
+//     private let apiKey = "56be75a6-e297-a6af-a63e-19795b2445e9:fx"
     
     
     func translateSrt(with fileUrl: URL, from sourceLanguage: String, to targetLanguage: String) {
@@ -75,7 +75,7 @@ final class SubtitleTranslateViewModel: NSObject, ObservableObject {
             var url = self.deeplUrl
             
             var requsetMaxSize = 1000
-            var maxConcurrentTaskCout = 3
+            let maxConcurrentTaskCout = 3
             
             if self.translateService == .google {
                 url = self.googleTranslationUrl
