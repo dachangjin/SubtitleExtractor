@@ -1,0 +1,701 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		4A50CA182AA0D6E900FCC9B1 /* TranslateState.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A50CA172AA0D6E900FCC9B1 /* TranslateState.swift */; };
+		4A50CA1A2AA0DBD400FCC9B1 /* TranslateService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A50CA192AA0DBD400FCC9B1 /* TranslateService.swift */; };
+		4A50CA1C2AA0EEC700FCC9B1 /* FileSelector.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A50CA1B2AA0EEC700FCC9B1 /* FileSelector.swift */; };
+		4A86029C2AA9D22E00008D9A /* RangeSlider.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A86029B2AA9D22E00008D9A /* RangeSlider.swift */; };
+		4ABB84672A93A9C3006D9837 /* SubtitleExtractorApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4ABB84662A93A9C3006D9837 /* SubtitleExtractorApp.swift */; };
+		4ABB84692A93A9C3006D9837 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4ABB84682A93A9C3006D9837 /* ContentView.swift */; };
+		4ABB846B2A93A9C4006D9837 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4ABB846A2A93A9C4006D9837 /* Assets.xcassets */; };
+		4ABB846E2A93A9C4006D9837 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4ABB846D2A93A9C4006D9837 /* Preview Assets.xcassets */; };
+		4ABB84792A93A9C4006D9837 /* SubtitleExtractorTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4ABB84782A93A9C4006D9837 /* SubtitleExtractorTests.swift */; };
+		4ABB84832A93A9C4006D9837 /* SubtitleExtractorUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4ABB84822A93A9C4006D9837 /* SubtitleExtractorUITests.swift */; };
+		4ABB84852A93A9C4006D9837 /* SubtitleExtractorUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4ABB84842A93A9C4006D9837 /* SubtitleExtractorUITestsLaunchTests.swift */; };
+		4ABB84962A9456AF006D9837 /* VideoControlView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4ABB84952A9456AF006D9837 /* VideoControlView.swift */; };
+		4ABB84992A94863C006D9837 /* VideoPlayerViewState.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4ABB84982A94863C006D9837 /* VideoPlayerViewState.swift */; };
+		4ABB849C2A94C03F006D9837 /* VideoSubtitleExtractorViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4ABB849B2A94C03F006D9837 /* VideoSubtitleExtractorViewModel.swift */; };
+		4ABB849F2A94C1A3006D9837 /* String+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4ABB849E2A94C1A3006D9837 /* String+Extension.swift */; };
+		4ABB84A22A94CC45006D9837 /* SubtitlePeriod.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4ABB84A12A94CC45006D9837 /* SubtitlePeriod.swift */; };
+		4ABB84A72A97656D006D9837 /* SubtitleRectSelectionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4ABB84A62A97656D006D9837 /* SubtitleRectSelectionView.swift */; };
+		4ABB84A92A976F8D006D9837 /* VideoPlayerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4ABB84A82A976F8D006D9837 /* VideoPlayerView.swift */; };
+		4ABB84AB2A978A28006D9837 /* VideoInfo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4ABB84AA2A978A28006D9837 /* VideoInfo.swift */; };
+		4ABB84AD2A978B1D006D9837 /* VideoPrecessInfo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4ABB84AC2A978B1D006D9837 /* VideoPrecessInfo.swift */; };
+		4ABB84AF2A989375006D9837 /* SubtitleTranslateViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4ABB84AE2A989375006D9837 /* SubtitleTranslateViewModel.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		4ABB84752A93A9C4006D9837 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 4ABB845B2A93A9C3006D9837 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 4ABB84622A93A9C3006D9837;
+			remoteInfo = SubtitleExtractor;
+		};
+		4ABB847F2A93A9C4006D9837 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 4ABB845B2A93A9C3006D9837 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 4ABB84622A93A9C3006D9837;
+			remoteInfo = SubtitleExtractor;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		4A50CA172AA0D6E900FCC9B1 /* TranslateState.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TranslateState.swift; sourceTree = "<group>"; };
+		4A50CA192AA0DBD400FCC9B1 /* TranslateService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TranslateService.swift; sourceTree = "<group>"; };
+		4A50CA1B2AA0EEC700FCC9B1 /* FileSelector.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FileSelector.swift; sourceTree = "<group>"; };
+		4A86029B2AA9D22E00008D9A /* RangeSlider.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RangeSlider.swift; sourceTree = "<group>"; };
+		4ABB84632A93A9C3006D9837 /* SubtitleExtractor.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SubtitleExtractor.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		4ABB84662A93A9C3006D9837 /* SubtitleExtractorApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SubtitleExtractorApp.swift; sourceTree = "<group>"; };
+		4ABB84682A93A9C3006D9837 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		4ABB846A2A93A9C4006D9837 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		4ABB846D2A93A9C4006D9837 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		4ABB846F2A93A9C4006D9837 /* SubtitleExtractor.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = SubtitleExtractor.entitlements; sourceTree = "<group>"; };
+		4ABB84742A93A9C4006D9837 /* SubtitleExtractorTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SubtitleExtractorTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		4ABB84782A93A9C4006D9837 /* SubtitleExtractorTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SubtitleExtractorTests.swift; sourceTree = "<group>"; };
+		4ABB847E2A93A9C4006D9837 /* SubtitleExtractorUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SubtitleExtractorUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		4ABB84822A93A9C4006D9837 /* SubtitleExtractorUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SubtitleExtractorUITests.swift; sourceTree = "<group>"; };
+		4ABB84842A93A9C4006D9837 /* SubtitleExtractorUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SubtitleExtractorUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		4ABB84952A9456AF006D9837 /* VideoControlView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VideoControlView.swift; sourceTree = "<group>"; };
+		4ABB84982A94863C006D9837 /* VideoPlayerViewState.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VideoPlayerViewState.swift; sourceTree = "<group>"; };
+		4ABB849B2A94C03F006D9837 /* VideoSubtitleExtractorViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VideoSubtitleExtractorViewModel.swift; sourceTree = "<group>"; };
+		4ABB849E2A94C1A3006D9837 /* String+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "String+Extension.swift"; sourceTree = "<group>"; };
+		4ABB84A12A94CC45006D9837 /* SubtitlePeriod.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SubtitlePeriod.swift; sourceTree = "<group>"; };
+		4ABB84A62A97656D006D9837 /* SubtitleRectSelectionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SubtitleRectSelectionView.swift; sourceTree = "<group>"; };
+		4ABB84A82A976F8D006D9837 /* VideoPlayerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VideoPlayerView.swift; sourceTree = "<group>"; };
+		4ABB84AA2A978A28006D9837 /* VideoInfo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VideoInfo.swift; sourceTree = "<group>"; };
+		4ABB84AC2A978B1D006D9837 /* VideoPrecessInfo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VideoPrecessInfo.swift; sourceTree = "<group>"; };
+		4ABB84AE2A989375006D9837 /* SubtitleTranslateViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SubtitleTranslateViewModel.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		4ABB84602A93A9C3006D9837 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4ABB84712A93A9C4006D9837 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4ABB847B2A93A9C4006D9837 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		4ABB845A2A93A9C3006D9837 = {
+			isa = PBXGroup;
+			children = (
+				4ABB84652A93A9C3006D9837 /* SubtitleExtractor */,
+				4ABB84772A93A9C4006D9837 /* SubtitleExtractorTests */,
+				4ABB84812A93A9C4006D9837 /* SubtitleExtractorUITests */,
+				4ABB84642A93A9C3006D9837 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		4ABB84642A93A9C3006D9837 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				4ABB84632A93A9C3006D9837 /* SubtitleExtractor.app */,
+				4ABB84742A93A9C4006D9837 /* SubtitleExtractorTests.xctest */,
+				4ABB847E2A93A9C4006D9837 /* SubtitleExtractorUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		4ABB84652A93A9C3006D9837 /* SubtitleExtractor */ = {
+			isa = PBXGroup;
+			children = (
+				4ABB849D2A94C180006D9837 /* Extensions */,
+				4ABB84972A94861F006D9837 /* Models */,
+				4ABB84922A94565A006D9837 /* Core */,
+				4ABB84912A94564A006D9837 /* App */,
+				4ABB846A2A93A9C4006D9837 /* Assets.xcassets */,
+				4ABB846F2A93A9C4006D9837 /* SubtitleExtractor.entitlements */,
+				4ABB846C2A93A9C4006D9837 /* Preview Content */,
+			);
+			path = SubtitleExtractor;
+			sourceTree = "<group>";
+		};
+		4ABB846C2A93A9C4006D9837 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				4ABB846D2A93A9C4006D9837 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		4ABB84772A93A9C4006D9837 /* SubtitleExtractorTests */ = {
+			isa = PBXGroup;
+			children = (
+				4ABB84782A93A9C4006D9837 /* SubtitleExtractorTests.swift */,
+			);
+			path = SubtitleExtractorTests;
+			sourceTree = "<group>";
+		};
+		4ABB84812A93A9C4006D9837 /* SubtitleExtractorUITests */ = {
+			isa = PBXGroup;
+			children = (
+				4ABB84822A93A9C4006D9837 /* SubtitleExtractorUITests.swift */,
+				4ABB84842A93A9C4006D9837 /* SubtitleExtractorUITestsLaunchTests.swift */,
+			);
+			path = SubtitleExtractorUITests;
+			sourceTree = "<group>";
+		};
+		4ABB84912A94564A006D9837 /* App */ = {
+			isa = PBXGroup;
+			children = (
+				4ABB84662A93A9C3006D9837 /* SubtitleExtractorApp.swift */,
+			);
+			path = App;
+			sourceTree = "<group>";
+		};
+		4ABB84922A94565A006D9837 /* Core */ = {
+			isa = PBXGroup;
+			children = (
+				4ABB84932A945665006D9837 /* Home */,
+			);
+			path = Core;
+			sourceTree = "<group>";
+		};
+		4ABB84932A945665006D9837 /* Home */ = {
+			isa = PBXGroup;
+			children = (
+				4ABB849A2A94C000006D9837 /* ViewModels */,
+				4ABB84942A94566A006D9837 /* Views */,
+			);
+			path = Home;
+			sourceTree = "<group>";
+		};
+		4ABB84942A94566A006D9837 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				4ABB84682A93A9C3006D9837 /* ContentView.swift */,
+				4ABB84952A9456AF006D9837 /* VideoControlView.swift */,
+				4ABB84A62A97656D006D9837 /* SubtitleRectSelectionView.swift */,
+				4ABB84A82A976F8D006D9837 /* VideoPlayerView.swift */,
+				4A50CA1B2AA0EEC700FCC9B1 /* FileSelector.swift */,
+				4A86029B2AA9D22E00008D9A /* RangeSlider.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		4ABB84972A94861F006D9837 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				4ABB84982A94863C006D9837 /* VideoPlayerViewState.swift */,
+				4ABB84A12A94CC45006D9837 /* SubtitlePeriod.swift */,
+				4ABB84AA2A978A28006D9837 /* VideoInfo.swift */,
+				4ABB84AC2A978B1D006D9837 /* VideoPrecessInfo.swift */,
+				4A50CA172AA0D6E900FCC9B1 /* TranslateState.swift */,
+				4A50CA192AA0DBD400FCC9B1 /* TranslateService.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		4ABB849A2A94C000006D9837 /* ViewModels */ = {
+			isa = PBXGroup;
+			children = (
+				4ABB849B2A94C03F006D9837 /* VideoSubtitleExtractorViewModel.swift */,
+				4ABB84AE2A989375006D9837 /* SubtitleTranslateViewModel.swift */,
+			);
+			path = ViewModels;
+			sourceTree = "<group>";
+		};
+		4ABB849D2A94C180006D9837 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				4ABB849E2A94C1A3006D9837 /* String+Extension.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		4ABB84622A93A9C3006D9837 /* SubtitleExtractor */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4ABB84882A93A9C4006D9837 /* Build configuration list for PBXNativeTarget "SubtitleExtractor" */;
+			buildPhases = (
+				4ABB845F2A93A9C3006D9837 /* Sources */,
+				4ABB84602A93A9C3006D9837 /* Frameworks */,
+				4ABB84612A93A9C3006D9837 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SubtitleExtractor;
+			packageProductDependencies = (
+			);
+			productName = SubtitleExtractor;
+			productReference = 4ABB84632A93A9C3006D9837 /* SubtitleExtractor.app */;
+			productType = "com.apple.product-type.application";
+		};
+		4ABB84732A93A9C4006D9837 /* SubtitleExtractorTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4ABB848B2A93A9C4006D9837 /* Build configuration list for PBXNativeTarget "SubtitleExtractorTests" */;
+			buildPhases = (
+				4ABB84702A93A9C4006D9837 /* Sources */,
+				4ABB84712A93A9C4006D9837 /* Frameworks */,
+				4ABB84722A93A9C4006D9837 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				4ABB84762A93A9C4006D9837 /* PBXTargetDependency */,
+			);
+			name = SubtitleExtractorTests;
+			productName = SubtitleExtractorTests;
+			productReference = 4ABB84742A93A9C4006D9837 /* SubtitleExtractorTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		4ABB847D2A93A9C4006D9837 /* SubtitleExtractorUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4ABB848E2A93A9C4006D9837 /* Build configuration list for PBXNativeTarget "SubtitleExtractorUITests" */;
+			buildPhases = (
+				4ABB847A2A93A9C4006D9837 /* Sources */,
+				4ABB847B2A93A9C4006D9837 /* Frameworks */,
+				4ABB847C2A93A9C4006D9837 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				4ABB84802A93A9C4006D9837 /* PBXTargetDependency */,
+			);
+			name = SubtitleExtractorUITests;
+			productName = SubtitleExtractorUITests;
+			productReference = 4ABB847E2A93A9C4006D9837 /* SubtitleExtractorUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		4ABB845B2A93A9C3006D9837 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1430;
+				LastUpgradeCheck = 1430;
+				TargetAttributes = {
+					4ABB84622A93A9C3006D9837 = {
+						CreatedOnToolsVersion = 14.3.1;
+					};
+					4ABB84732A93A9C4006D9837 = {
+						CreatedOnToolsVersion = 14.3.1;
+						TestTargetID = 4ABB84622A93A9C3006D9837;
+					};
+					4ABB847D2A93A9C4006D9837 = {
+						CreatedOnToolsVersion = 14.3.1;
+						TestTargetID = 4ABB84622A93A9C3006D9837;
+					};
+				};
+			};
+			buildConfigurationList = 4ABB845E2A93A9C3006D9837 /* Build configuration list for PBXProject "SubtitleExtractor" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 4ABB845A2A93A9C3006D9837;
+			packageReferences = (
+			);
+			productRefGroup = 4ABB84642A93A9C3006D9837 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				4ABB84622A93A9C3006D9837 /* SubtitleExtractor */,
+				4ABB84732A93A9C4006D9837 /* SubtitleExtractorTests */,
+				4ABB847D2A93A9C4006D9837 /* SubtitleExtractorUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		4ABB84612A93A9C3006D9837 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4ABB846E2A93A9C4006D9837 /* Preview Assets.xcassets in Resources */,
+				4ABB846B2A93A9C4006D9837 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4ABB84722A93A9C4006D9837 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4ABB847C2A93A9C4006D9837 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		4ABB845F2A93A9C3006D9837 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4ABB84692A93A9C3006D9837 /* ContentView.swift in Sources */,
+				4ABB84992A94863C006D9837 /* VideoPlayerViewState.swift in Sources */,
+				4ABB84AF2A989375006D9837 /* SubtitleTranslateViewModel.swift in Sources */,
+				4ABB84A22A94CC45006D9837 /* SubtitlePeriod.swift in Sources */,
+				4ABB849C2A94C03F006D9837 /* VideoSubtitleExtractorViewModel.swift in Sources */,
+				4ABB84AD2A978B1D006D9837 /* VideoPrecessInfo.swift in Sources */,
+				4ABB84A72A97656D006D9837 /* SubtitleRectSelectionView.swift in Sources */,
+				4A50CA1C2AA0EEC700FCC9B1 /* FileSelector.swift in Sources */,
+				4ABB84A92A976F8D006D9837 /* VideoPlayerView.swift in Sources */,
+				4ABB84962A9456AF006D9837 /* VideoControlView.swift in Sources */,
+				4ABB84AB2A978A28006D9837 /* VideoInfo.swift in Sources */,
+				4ABB849F2A94C1A3006D9837 /* String+Extension.swift in Sources */,
+				4A86029C2AA9D22E00008D9A /* RangeSlider.swift in Sources */,
+				4A50CA182AA0D6E900FCC9B1 /* TranslateState.swift in Sources */,
+				4A50CA1A2AA0DBD400FCC9B1 /* TranslateService.swift in Sources */,
+				4ABB84672A93A9C3006D9837 /* SubtitleExtractorApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4ABB84702A93A9C4006D9837 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4ABB84792A93A9C4006D9837 /* SubtitleExtractorTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4ABB847A2A93A9C4006D9837 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4ABB84832A93A9C4006D9837 /* SubtitleExtractorUITests.swift in Sources */,
+				4ABB84852A93A9C4006D9837 /* SubtitleExtractorUITestsLaunchTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		4ABB84762A93A9C4006D9837 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 4ABB84622A93A9C3006D9837 /* SubtitleExtractor */;
+			targetProxy = 4ABB84752A93A9C4006D9837 /* PBXContainerItemProxy */;
+		};
+		4ABB84802A93A9C4006D9837 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 4ABB84622A93A9C3006D9837 /* SubtitleExtractor */;
+			targetProxy = 4ABB847F2A93A9C4006D9837 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		4ABB84862A93A9C4006D9837 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 13.3;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		4ABB84872A93A9C4006D9837 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 13.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = macosx;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+			};
+			name = Release;
+		};
+		4ABB84892A93A9C4006D9837 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = SubtitleExtractor/SubtitleExtractor.entitlements;
+				"CODE_SIGN_IDENTITY[sdk=macosx*]" = "Apple Development";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"SubtitleExtractor/Preview Content\"";
+				DEVELOPMENT_TEAM = G6RMYKW9XP;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 12.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = tom.SubtitleExtractor112211;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		4ABB848A2A93A9C4006D9837 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = SubtitleExtractor/SubtitleExtractor.entitlements;
+				"CODE_SIGN_IDENTITY[sdk=macosx*]" = "Apple Development";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"SubtitleExtractor/Preview Content\"";
+				DEVELOPMENT_TEAM = G6RMYKW9XP;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 12.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = tom.SubtitleExtractor112211;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+		4ABB848C2A93A9C4006D9837 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = G6RMYKW9XP;
+				GENERATE_INFOPLIST_FILE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 13.3;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = tommy.SubtitleExtractorTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SubtitleExtractor.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/SubtitleExtractor";
+			};
+			name = Debug;
+		};
+		4ABB848D2A93A9C4006D9837 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = G6RMYKW9XP;
+				GENERATE_INFOPLIST_FILE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 13.3;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = tommy.SubtitleExtractorTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SubtitleExtractor.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/SubtitleExtractor";
+			};
+			name = Release;
+		};
+		4ABB848F2A93A9C4006D9837 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = G6RMYKW9XP;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = tommy.SubtitleExtractorUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_TARGET_NAME = SubtitleExtractor;
+			};
+			name = Debug;
+		};
+		4ABB84902A93A9C4006D9837 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = G6RMYKW9XP;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = tommy.SubtitleExtractorUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_TARGET_NAME = SubtitleExtractor;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		4ABB845E2A93A9C3006D9837 /* Build configuration list for PBXProject "SubtitleExtractor" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4ABB84862A93A9C4006D9837 /* Debug */,
+				4ABB84872A93A9C4006D9837 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4ABB84882A93A9C4006D9837 /* Build configuration list for PBXNativeTarget "SubtitleExtractor" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4ABB84892A93A9C4006D9837 /* Debug */,
+				4ABB848A2A93A9C4006D9837 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4ABB848B2A93A9C4006D9837 /* Build configuration list for PBXNativeTarget "SubtitleExtractorTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4ABB848C2A93A9C4006D9837 /* Debug */,
+				4ABB848D2A93A9C4006D9837 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4ABB848E2A93A9C4006D9837 /* Build configuration list for PBXNativeTarget "SubtitleExtractorUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4ABB848F2A93A9C4006D9837 /* Debug */,
+				4ABB84902A93A9C4006D9837 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 4ABB845B2A93A9C3006D9837 /* Project object */;
+}
